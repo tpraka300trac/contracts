@@ -127,6 +127,5 @@ volumes:
   l2-anvil-data:
 
 networks:
-  # Allows us to share the services in this file with other Docker Compose files
   contracts_subnet:
     driver: bridge
